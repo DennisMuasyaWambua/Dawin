@@ -9,6 +9,9 @@ const Welcome = () => {
         <div className="absolute top-1/3 w-full text-center">
         <p className="text-red-600 text-lg font-semibold">Welcome to Dawin Tours and Travel</p>
         <h1 className="text-5xl font-bold" style={{color: '#007FFF'}}>THE WORLD IS WAITING</h1>
+        <div className="flex justify-center mt-4">
+          <ExploreButton />
+        </div>
       </div>
       
     </div>
